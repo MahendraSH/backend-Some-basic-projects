@@ -1,0 +1,22 @@
+<%- include('partials/header'); -%>
+    <h2>Comopose</h2>
+        <main>
+            <form action="/compose" method="post">
+
+
+                <label for="ComTitle">Title:</label>
+                <br>
+                <input class="ComTitle" type="text" name="ComTitle" id="newComTitle">
+                <br>
+                <label for="textPost">Post:</label>
+                <br>
+                <textarea class="textPost" name="textPost" id="textPost" cols="100" rows="10"></textarea>
+                <br>
+                <button class="btn-submit" type="submit">Compose new</button>
+            </form>
+
+        </main> 
+
+        </body>
+
+        <%- include('partials/footer'); -%>

@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #111;
+  color: white;
+
+}
+
+.nav-bar {
+  /* display: inline; */
+  position: sticky;
+  background-color: #4e4d4d;
+  width: 100%;
+  height: 3rem;
+  padding: 0.3rem;
+  margin-bottom: 1rem;
+  overflow: hidden;
+
+}
+
+.nav-bar .nav-bar-heading {
+  font-size: 1.6rem;
+  display: inline;
+  padding: 0.5rem;
+  /* border-left: solid wheat; */
+  border-right: solid wheat;
+  color: wheat;
+
+}
+
+ul {
+
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #515050;
+}
+
+li {
+  float: right;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+li a {
+  display: block;
+  color: wheat;
+  text-align: center;
+  padding: 8px 20px;
+  text-decoration: none;
+
+  border-radius: 20%;
+
+  border: none;
+
+}
+
+li a:hover {
+  background-color: #111;
+  color: white;
+
+  border: solid whitesmoke;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 0.7rem;
+  background-color: #6a6c6c;
+  color: #f1d4bb;
+  text-align: center;
+
+}
+
+main {
+  font-size: 1.2rem;
+  margin: 1rem;
+}
+.ComTitle{
+  padding: 0.7rem;
+  width: 80%;
+  margin-left: 7%;
+  border-radius: 1rem;
+  color: #c9d1d9;
+  background-color: #123;
+
+}
+.textPost{
+  padding: 0.7rem;
+  width: 80%;
+  margin-left: 7%;
+ border-radius: 1rem;
+ color: #c9d1d9;
+ background-color:#123;
+
+}
+.btn-submit{
+  padding: 0.6rem 0.9rem;
+  margin: 1rem;
+  margin-left: 10%;
+  border-radius:10%; ;
+  border-style: solid;
+  border: aliceblue;
+  color: wheat;
+  background-color: #6a6c6c;
+  border: solid #9ca3aa;
+}
+.btn-submit:hover{
+  
+  background-color: #191a19;
+  border: solid white;
+
+}
+h2{
+  margin:1rem;
+}
+
+h3{
+  margin :1rem;
+}
+
+p{
+  margin: 0.7rem;
+
+}
+hr{
+  border: 5px;
+  border-style: dotted;
+  border-spacing:2px;
+  border-color: #849fbd;
+  border-bottom: none;
+
+}
+.linkmore{
+  text-decoration: none;
+  color: rgb(104, 99, 89);
+}
+.linkmore:hover{
+  color:aqua;
+}
+#link-add{
+  border-radius: 2rem;
+  padding: 0.2rem 0.4rem;
+  background-color: rgba(128, 128, 128, 0.747);
+}

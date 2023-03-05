@@ -1,0 +1,26 @@
+<%- include('partials/header'); -%>
+    <h2>Home</h2>
+        <main>
+            <p>
+                <%= homeContent %>
+            </p>
+            <hr>
+
+            <% posts.forEach((i)=>{ %>
+                
+                <h3>
+                    <%= i.comTile %>
+                </h3>
+                <p>
+                    <%= i.comPost.substring(1,100)+"......"  %>
+                    <a class="linkmore" href="\post\:<%= i.comTile%>">Read more ..</a>
+                </p>
+
+            <% }) %>
+
+
+        </main>
+
+        </body>
+
+        <%- include('partials/footer'); -%>
