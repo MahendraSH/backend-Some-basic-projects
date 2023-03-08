@@ -14,7 +14,7 @@ app.post("/",(req,res)=>{
 
     const query=req.body.CityName;
     
-const url ="https://api.openweathermap.org/data/2.5/weather?q="+query+"&units=metric&appid=00cf8f2f4f7532e65ce250ae089f48d8";
+const url ="";
 
 
 https.get(url,(respos)=>
