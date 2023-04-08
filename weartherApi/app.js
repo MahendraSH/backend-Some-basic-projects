@@ -2,6 +2,7 @@ const { json } = require("express");
 const express = require("express");
 const bodyParser=require('body-parser')
 const https =require("node:https");
+const dotenv= require('dotenv').config();
 
 const app =express();
 app.use(bodyParser.urlencoded({extended:true}));
@@ -14,7 +15,7 @@ app.post("/",(req,res)=>{
 
     const query=req.body.CityName;
     
-const url ="";
+const url =process.env.url
 
 
 https.get(url,(respos)=>
